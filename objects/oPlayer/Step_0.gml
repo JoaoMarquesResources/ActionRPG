@@ -15,8 +15,8 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0); //Retorna 
 hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
-x += hSpeed;
-y += vSpeed;
+PlayerCollision();
+
 //show_debug_message(inputDirection);
 //show_debug_message(inputMagnitude);
 //show_debug_message(vSpeed);
