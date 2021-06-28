@@ -27,6 +27,5 @@ function PlayerCollision(){
 	//Vertical Move Commit
 	y += vSpeed;
 	
-	
 	return _collision;
 }

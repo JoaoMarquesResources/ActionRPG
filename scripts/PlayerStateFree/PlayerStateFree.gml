@@ -18,4 +18,12 @@ function PlayerStateFree(){
 
 	//Update Image Index
 	PlayerAnimateSprite();
+	
+	//Change state
+	if (keyActivate)
+	{
+		
+		state = PlayerStateRoll;
+		moveDistanceRemaining = distanceRoll;
+	}
 }
