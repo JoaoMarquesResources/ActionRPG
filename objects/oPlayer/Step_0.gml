@@ -15,4 +15,4 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0); //Retorna 
 //show_debug_message(vSpeed);
 //show_debug_message(hSpeed);
 
-script_execute(state);
+if (!global.gamePaused) script_execute(state);
