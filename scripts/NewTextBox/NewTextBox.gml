@@ -8,7 +8,7 @@ function NewTextBox(){
 		message = argument[0];
 		if (instance_exists(other)) originInstance = other.id else originInstance = noone;
 		if (argument_count > 1) background = argument[1]; else background = 1;
-	}//siajwdjawdj
+	}
 	with(oPlayer)
 	{
 		if (state != PlayerStateLocked)
