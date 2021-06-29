@@ -1,5 +1,6 @@
 /// @description Insert description here
 state = PlayerStateFree; //N se poe () pq n é para executalo mas sim so guarda lo numa var
+lastState = state;
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 

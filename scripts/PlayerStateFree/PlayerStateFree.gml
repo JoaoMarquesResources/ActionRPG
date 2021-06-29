@@ -22,7 +22,6 @@ function PlayerStateFree(){
 	//Change state
 	if (keyActivate)
 	{
-		
 		state = PlayerStateRoll;
 		moveDistanceRemaining = distanceRoll;
 	}
