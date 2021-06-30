@@ -32,6 +32,6 @@ function PlayerStateRoll(){
 	if (_collided)
 	{
 		state = PlayerStateFree;
-		ScreenShake(8, 30);
+		ScreenShake(5, 25);
 	}
 }

@@ -16,3 +16,5 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0); //Retorna 
 //show_debug_message(hSpeed);
 
 if (!global.gamePaused) script_execute(state);
+
+depth = -bbox_bottom;
