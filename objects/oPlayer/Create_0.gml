@@ -11,6 +11,11 @@ speedWalk = 2.0;
 speedRoll = 3.0;
 distanceRoll = 52; //Distancia do Roll
 
+distanceBonk = 40;
+distanceBonkHeight = 12;
+speedBonk = 1.5;
+z = 0;
+
 spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
