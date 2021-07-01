@@ -13,7 +13,7 @@ if (responses[0] != -1) && (textProgress >= string_length(message)) //Se foi exi
 	{
 	    _print += "\n";
 		if (i == responseSelected) _print += "> ";
-		_print +=  responses[i];
+		_print += responses[i];
 		if (i == responseSelected) _print += " <"; //esta a seguir á response para criar a seta á frente
 
 	}

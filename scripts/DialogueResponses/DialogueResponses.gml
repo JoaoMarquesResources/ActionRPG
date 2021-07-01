@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function DialogueResponses(){
-	switch(argument0)
+function DialogueResponses(response){
+	switch(response)
 	{
 		case 0: break;
 		case 1: NewTextBox("You gave response A!", 1); break;
