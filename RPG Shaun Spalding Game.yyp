@@ -27,6 +27,7 @@
     {"id":{"name":"AttackSpin","path":"scripts/AttackSpin/AttackSpin.yy",},"order":1,},
     {"id":{"name":"oPlantB","path":"objects/oPlantB/oPlantB.yy",},"order":4,},
     {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},"order":3,},
+    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},"order":14,},
     {"id":{"name":"AttackSlash","path":"scripts/AttackSlash/AttackSlash.yy",},"order":0,},
     {"id":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},"order":0,},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":2,},
