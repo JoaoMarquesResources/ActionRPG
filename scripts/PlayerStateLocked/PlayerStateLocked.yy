@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "PlayerStateMachine",
-    "path": "folders/Scripts/PlayerStateMachine.yy",
+    "name": "Player State Machine",
+    "path": "folders/Scripts/Player State Machine.yy",
   },
   "resourceVersion": "1.0",
   "name": "PlayerStateLocked",

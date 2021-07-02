@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7495a5a3-5e46-477c-b41e-2fa7111599aa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Entities",
+    "path": "folders/Sprites/Entities.yy",
   },
   "resourceVersion": "1.0",
   "name": "sQuestie",

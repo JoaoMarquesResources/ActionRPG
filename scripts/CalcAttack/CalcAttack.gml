@@ -5,7 +5,7 @@ function CalcAttack(){
 	//Use attack hitbox & check for hits
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x, y, pEntity, hitByAttackNow, false);
-	if (hits > 0)
+	if (hits > 0) //Colidiu com algo
 	{
 		for (var i = 0; i < hits; i++)
 		{
@@ -16,7 +16,7 @@ function CalcAttack(){
 				ds_list_add(hitByAttack, hitID);
 				with (hitID)
 				{
-					image_blend = c_red;
+					if (entityHitScript != -1) script_execute(entityHitScript);
 				}
 			}
 		}

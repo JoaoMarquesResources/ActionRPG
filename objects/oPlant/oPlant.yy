@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sQuestie",
-    "path": "sprites/sQuestie/sQuestie.yy",
+    "name": "sPlant",
+    "path": "sprites/sPlant/sPlant.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,19 +23,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oQuestNPC","path":"objects/oQuestNPC/oQuestNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityShadow","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityHitScript","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"EntityHitDestroy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",
     "path": "folders/Objects/Entities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oQuestNPC",
+  "name": "oPlant",
   "tags": [],
   "resourceType": "GMObject",
 }
