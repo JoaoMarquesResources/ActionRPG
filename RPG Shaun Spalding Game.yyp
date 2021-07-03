@@ -38,6 +38,7 @@
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"order":2,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":4,},
     {"id":{"name":"EntityHitDestroy","path":"scripts/EntityHitDestroy/EntityHitDestroy.yy",},"order":9,},
+    {"id":{"name":"rRiver","path":"rooms/rRiver/rRiver.yy",},"order":3,},
     {"id":{"name":"EntityHitSolid","path":"scripts/EntityHitSolid/EntityHitSolid.yy",},"order":10,},
     {"id":{"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},"order":1,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":5,},
@@ -69,6 +70,7 @@
     {"roomId":{"name":"rinit","path":"rooms/rinit/rinit.yy",},},
     {"roomId":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
     {"roomId":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},},
+    {"roomId":{"name":"rRiver","path":"rooms/rRiver/rRiver.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":8,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
