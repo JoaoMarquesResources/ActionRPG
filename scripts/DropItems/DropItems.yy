@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player Attacks",
-    "path": "folders/Scripts/Player Attacks.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "NewTextBox",
+  "name": "DropItems",
   "tags": [],
   "resourceType": "GMScript",
 }
