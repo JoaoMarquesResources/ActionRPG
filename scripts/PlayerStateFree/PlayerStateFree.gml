@@ -31,6 +31,8 @@ function PlayerStateFree(){
 	{
 		//Check for an entity to activate
 		//If there is nothing, or there is something, but it has no script - Roll!
+			//If we are carrying and it has a script, throw it!
+			//Roll
 		//Otherwise, there is something and it has a script! Activate!
 		//If the thing we activate is an NPC, make it face towards us!
 		
