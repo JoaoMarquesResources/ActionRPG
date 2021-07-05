@@ -22,5 +22,5 @@ if (leading == OUT)
 	}
 }
 
-show_debug_message(leading);
-show_debug_message(percent);
+//show_debug_message(leading);
+//show_debug_message(percent);
