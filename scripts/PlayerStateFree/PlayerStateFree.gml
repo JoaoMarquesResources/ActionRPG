@@ -36,8 +36,8 @@ function PlayerStateFree(){
 		//Otherwise, there is something and it has a script! Activate!
 		//If the thing we activate is an NPC, make it face towards us!
 		
-		var _activateX = lengthdir_x(10, 360);
-		var _activateY = lengthdir_y(10, 360);
+		var _activateX = lengthdir_x(10, direction);	//Era suposto ser direction mas mudei por causa de um bug de mrd
+		var _activateY = lengthdir_y(10, direction);
 		activate = instance_position(x + _activateX, y + _activateY, pEntity);
 	
 		if (activate == noone || activate.entityActivateScript == -1)
@@ -50,7 +50,7 @@ function PlayerStateFree(){
 		}
 		else
 		{
-			//Activate the entity
+			//Activate the entity-
 			ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
 			
 			//Make an nps face the player
