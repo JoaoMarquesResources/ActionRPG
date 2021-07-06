@@ -12,4 +12,15 @@ function MACROS(){
 	#macro TRANSITION_SPEED 0.02
 	#macro OUT 0
 	#macro IN 1
+	
+	enum ENEMYSTATE
+	{
+		IDLE,
+		WANDER,
+		CHASE,
+		ATTACK,
+		HURT,
+		DIE,
+		WAIT
+	}
 }

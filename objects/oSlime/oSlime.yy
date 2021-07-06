@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sQuestie",
-    "path": "sprites/sQuestie/sQuestie.yy",
+    "name": "sSlime",
+    "path": "sprites/sSlime/sSlime.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pEntity",
-    "path": "objects/pEntity/pEntity.yy",
+    "name": "pEnemy",
+    "path": "objects/pEnemy/pEnemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,15 +27,13 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Entities.yy",
+    "name": "Enemys",
+    "path": "folders/Objects/Enemys.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oQuestNPC",
+  "name": "oSlime",
   "tags": [],
   "resourceType": "GMObject",
 }
