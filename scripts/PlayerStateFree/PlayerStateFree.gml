@@ -36,11 +36,38 @@ function PlayerStateFree(){
 		//Otherwise, there is something and it has a script! Activate!
 		//If the thing we activate is an NPC, make it face towards us!
 		
-		var _activateX = lengthdir_x(10, direction);	//Era suposto ser direction mas mudei por causa de um bug de mrd
-		var _activateY = lengthdir_y(10, direction);
-		activate = instance_position(x + _activateX, y + _activateY, pEntity);
+		var _activateX = x + lengthdir_x(10, direction);
+		var _activateY = y + lengthdir_y(10, direction);
+		var _activateSize = 4;
+		var _activateList = ds_list_create();
+		activate = noone;
+		//Vai criar um rectangulo 8 por 8
+		var _entitiesFound = collision_rectangle_list(
+			_activateX - _activateSize,
+			_activateY - _activateSize,
+			_activateX + _activateSize,
+			_activateY + _activateSize,
+			pEntity,
+			false,
+			true,
+			_activateList,
+			true
+		);
+		
+		//If the first instance we find is either our lifted entity or it has no script: try the next one
+		while(_entitiesFound > 0)
+		{
+			var _check = _activateList[| --_entitiesFound];
+			if (_check != global.iLifted) && (_check.entityActivateScript != -1)
+			{
+				activate = _check;
+				break;
+			}
+		}
+		
+		ds_list_destroy(_activateList);
 	
-		if (activate == noone || activate.entityActivateScript == -1)
+		if (activate == noone)
 		{
 			//Trow something if held, otherwise roll
 			if (global.iLifted != noone)
