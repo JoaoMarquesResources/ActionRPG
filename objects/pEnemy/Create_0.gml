@@ -12,6 +12,8 @@ dir = 0;
 timePassed = 0;
 waitDuraction = 60;
 wait = 0;
+aggroCheck = 0;
+aggroCheckDuration = 5;
 
 //Enemy Sprites
 sprMove = sSlime;

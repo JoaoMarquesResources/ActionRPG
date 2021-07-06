@@ -6,13 +6,11 @@ function SlimeWander(){
 	//At destination or given up?
 	if ((x == xTo) && (y == yTo)) || (timePassed > enemyWanderDistance / enemySpeed)
 	{
-		show_debug_message("QUAL SERA A DESTINATION Q VOU ???")
 		hSpeed = 0;
 		vSpeed = 0;
 		//End our move animation
 		if (image_index < 1) //Se estivermos no primeiro frame da animação, para a animação
 		{
-			show_debug_message("BUG BUG BUG BUG BUG BUGBUGBUGBUGUB");
 			image_speed = 0.0;
 			image_index = 0;
 		}
@@ -20,7 +18,6 @@ function SlimeWander(){
 		//Set new target destination
 		if (++wait >= waitDuraction)
 		{
-			show_message("VOU PARA AQUI")
 			wait = 0;
 			timePassed = 0;
 			dir = point_direction(x, y, xstart, ystart) + irandom_range(-45, 45);
@@ -29,7 +26,6 @@ function SlimeWander(){
 		}
 	}else //Move towards new destination
 	{
-		show_debug_message("ESTOU A IRRRRRRR")
 		timePassed++;
 		image_speed = 1.0;
 		var _distanceToGo = point_direction(x, y, xTo, yTo);
@@ -40,7 +36,17 @@ function SlimeWander(){
 		vSpeed = lengthdir_y(_speedThisFrame, dir);
 		if (hSpeed != 0) image_xscale = sign(hSpeed);
 	}
-	
 	//Collide & move
 	EnemyTileCollision();
+	
+	//Check for aggro
+	if (++aggroCheck >= aggroCheckDuration)
+	{
+		aggroCheck = 0;
+		if (instance_exists(oPlayer)) && (point_distance(x, y, oPlayer.x, oPlayer.y) <= enemyAggroRadius)
+		{
+			state = ENEMYSTATE.CHASE; //Chase = perseguir
+			target = oPlayer;
+		}
+	}
 }
