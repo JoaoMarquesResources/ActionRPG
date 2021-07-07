@@ -13,12 +13,12 @@ function SlimeChase(){
 		dir = point_direction(x, y, xTo, yTo);
 		if (_distanceToGo > enemySpeed)
 		{
-			show_debug_message("1")
+			//show_debug_message("1")
 			hSpeed = lengthdir_x(enemySpeed, dir);
 			vSpeed = lengthdir_y(enemySpeed, dir);
 		}else
 		{
-			show_debug_message("2")
+			//show_debug_message("2")
 			hSpeed = lengthdir_x(_distanceToGo, dir);
 			vSpeed = lengthdir_y(_distanceToGo, dir);
 		}
@@ -27,6 +27,6 @@ function SlimeChase(){
 		//Collide & Move
 		EnemyTileCollision();
 	}
-	
-	show_debug_message(enemySpeed);
+	//show_debug_message(enemySpeed);
+	//show_debug_message(_distanceToGo);
 }
