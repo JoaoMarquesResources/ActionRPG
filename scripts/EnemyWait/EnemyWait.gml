@@ -4,6 +4,7 @@ function EnemyWait(){
 	if (++stateWait >= stateWaitDuration)
 	{
 		stateWait = 0;
+		show_message(state);
 		state = stateTarget;
 	}
 }
