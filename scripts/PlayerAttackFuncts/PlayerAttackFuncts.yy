@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Player Attacks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "AttackSlash",
+  "name": "PlayerAttackFuncts",
   "tags": [],
   "resourceType": "GMScript",
 }
