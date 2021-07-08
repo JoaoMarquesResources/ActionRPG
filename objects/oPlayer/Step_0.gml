@@ -16,6 +16,11 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0); //Retorna 
 //show_debug_message(vSpeed);
 //show_debug_message(hSpeed);
 
-if (!global.gamePaused) script_execute(state);
+if (!global.gamePaused)
+{
+	script_execute(state);
+	invulnerable = max(invulnerable - 1, 0); //Vai descer a invulnerable 1 each frame, mas usamos o max para n passar de 0
+	flash = max(flash - 0.05, 0); //Vai descer 0.05 de flash each frame, mas usamos o max para n passar de 0
+}
 
 depth = -bbox_bottom;
