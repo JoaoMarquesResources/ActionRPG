@@ -1,7 +1,10 @@
 /// @description Progress Transition
 // You can write your code in this editor
 
-with (oPlayer) state = PlayerStateTransition;
+with (oPlayer)
+{
+	if (state != PlayerStateTransition) state = PlayerStateTransition;
+}
 
 if (leading == OUT)
 {
