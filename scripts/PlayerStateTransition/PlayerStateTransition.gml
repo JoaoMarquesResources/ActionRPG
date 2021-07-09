@@ -4,6 +4,9 @@ function PlayerStateTransition(){
 	//Movement
 	PlayerCollision();
 	
-	//Update Image Index
-	PlayerAnimateSprite();
+	if (oPlayer.sprite_index != sPlayerDead)
+	{
+		//Update Image Index
+		PlayerAnimateSprite();
+	}
 }

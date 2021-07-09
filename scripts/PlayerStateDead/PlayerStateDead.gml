@@ -27,9 +27,8 @@ function PlayerStateDead()
 				image_speed = 1.0;
 			}
 		}
-		else //RESOLVER BUGGGGGGGG DE MORRER
+		else
 		{
-			show_message("DOAIWJD")
 			image_speed = 0;
 			image_index = image_number - 1;
 			global.targetX = -1;
