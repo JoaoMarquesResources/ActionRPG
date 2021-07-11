@@ -5,6 +5,9 @@ function ActivateLiftable(id){
 	{
 		PlayerActOutAnimation(sPlayerLift);
 		
+		spriteIdle = sPlayerCarrying;
+		spriteRun = sPlayerRunCarrying;
+		
 		global.iLifted = argument0;
 		with (global.iLifted)
 		{
