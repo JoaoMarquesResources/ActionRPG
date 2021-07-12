@@ -4,6 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-image_speed = 0;
+flash = 1;
 
-if (global.questStatus[? "TheHatQuest"] == 2) sprite_index = sQuestieHat;
