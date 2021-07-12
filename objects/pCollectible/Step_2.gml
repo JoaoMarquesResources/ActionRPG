@@ -18,15 +18,11 @@ if (instance_exists(oPlayer))
 		fric = 0;
 		if (_dist < 5)//Collect radius
 		{
-			show_message(collectScriptArg)
 			if (collectScriptArg != -1)
 			{
-				show_message("AOIWDJDOIAJW");
 				script_execute(collectScript, collectScriptArg);
 			}else
 			{
-				show_message(collectScriptArg);
-				show_message(collectScript);
 				if (collectScript != -1) script_execute(collectScript);
 			}
 			instance_destroy();

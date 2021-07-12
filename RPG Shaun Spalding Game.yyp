@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"oBomb","path":"objects/oBomb/oBomb.yy",},"order":10,},
     {"id":{"name":"PlayerStateBonk","path":"scripts/PlayerStateBonk/PlayerStateBonk.yy",},"order":4,},
     {"id":{"name":"sPlant","path":"sprites/sPlant/sPlant.yy",},"order":7,},
     {"id":{"name":"sPlayerRunCarrying","path":"sprites/sPlayerRunCarrying/sPlayerRunCarrying.yy",},"order":9,},
@@ -47,6 +48,7 @@
     {"id":{"name":"EnemyTileCollision","path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},"order":14,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":6,},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":1,},
+    {"id":{"name":"sExplode","path":"sprites/sExplode/sExplode.yy",},"order":19,},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},"order":8,},
     {"id":{"name":"sSlimeDie","path":"sprites/sSlimeDie/sSlimeDie.yy",},"order":14,},
     {"id":{"name":"oHat","path":"objects/oHat/oHat.yy",},"order":7,},
@@ -68,7 +70,9 @@
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"order":2,},
     {"id":{"name":"shRedFlash","path":"shaders/shRedFlash/shRedFlash.yy",},"order":1,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":1,},
+    {"id":{"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},"order":18,},
     {"id":{"name":"EntityHitDestroy","path":"scripts/EntityHitDestroy/EntityHitDestroy.yy",},"order":10,},
+    {"id":{"name":"PlayerDropItem","path":"scripts/PlayerDropItem/PlayerDropItem.yy",},"order":4,},
     {"id":{"name":"rRiver","path":"rooms/rRiver/rRiver.yy",},"order":3,},
     {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},"order":3,},
     {"id":{"name":"EntityHitSolid","path":"scripts/EntityHitSolid/EntityHitSolid.yy",},"order":11,},
