@@ -89,7 +89,7 @@
     "spriteId": {"name":"sExplode","path":"sprites/sExplode/sExplode.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 20.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

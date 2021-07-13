@@ -35,6 +35,7 @@
     {"id":{"name":"sTextBoxBg","path":"sprites/sTextBoxBg/sTextBoxBg.yy",},"order":2,},
     {"id":{"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},"order":8,},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},"order":2,},
+    {"id":{"name":"oExplode","path":"objects/oExplode/oExplode.yy",},"order":9,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":9,},
     {"id":{"name":"sSlimeHurt","path":"sprites/sSlimeHurt/sSlimeHurt.yy",},"order":15,},
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},"order":0,},
@@ -97,6 +98,8 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -143,7 +146,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.3.570",
   },
   "resourceVersion": "1.4",
   "name": "RPG Shaun Spalding Game",

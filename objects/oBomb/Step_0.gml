@@ -12,7 +12,7 @@ if (!global.gamePaused)
 		bombTick = bombTickRate[bombStage];
 	}
 	
-	if (bombTick < 0)
+	if (bombTick < 0) //bombtick = -1 (ultimo valor do array)
 	{
 		y -= z;
 		if (lifted)
@@ -27,3 +27,4 @@ if (!global.gamePaused)
 }
 
 show_debug_message(bombTick);
+show_debug_message(y);
