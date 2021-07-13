@@ -1,6 +1,7 @@
-/// @description Draw Health
+/// @description Draw UI
 // You can write your code in this editor
 
+#region DrawHealth
 //	https://www.youtube.com/watch?v=e-P8TX_wq-A&list=PLPRT_JORnIuosvhfax2TQTEmN7OYTcSvK&index=29
 
 var _playerHealth = global.playerHealth; //Vida atual
@@ -19,3 +20,27 @@ for (var i = 1; i <= _playerHealthMax; i++)
 	}
 	draw_sprite(sHealth, _imageIndex, 8 + ((i - 1) * 16), 8);
 }
+#endregion
+
+//Coins
+var _xx, _yy;
+
+//Coin Icon
+_xx = 8;
+_yy = 31;
+draw_sprite(sCoinUI, 0, _xx, _yy);
+
+//Coin Text
+draw_set_color(c_black);
+draw_set_font(fText);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+_xx += sprite_get_width(sCoinUI) + 4;
+_yy = 27;
+var _str = string(global.playerMoney);
+draw_text(_xx + 1, _yy, _str);
+draw_text(_xx - 1, _yy, _str);
+draw_text(_xx, _yy + 1, _str);
+draw_text(_xx, _yy - 1, _str);
+draw_set_color(c_white);
+draw_text(_xx, _yy, _str);
