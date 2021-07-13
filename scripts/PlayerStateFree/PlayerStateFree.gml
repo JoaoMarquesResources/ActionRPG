@@ -96,4 +96,15 @@ function PlayerStateFree(){
 		state = PlayerStateRoll;
 		moveDistanceRemaining = distanceRoll;
 	}
+	
+	if (keyItem) && (!keyActivate) && (global.playerHasAnyItems) && (global.playerEquipped != ITEM.NONE) //Trocar de itens e tal
+	{
+		switch (global.playerEquipped)
+		{
+			case ITEM.BOMB: UseItemBomb(); break;
+			case ITEM.BOW: UseItemBow(); break;
+			case ITEM.HOOK: UseItemHook(); break;
+			default: break;
+		}
+	}
 }

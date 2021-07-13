@@ -30,6 +30,7 @@
     {"id":{"name":"SlimeFunctions","path":"scripts/SlimeFunctions/SlimeFunctions.yy",},"order":16,},
     {"id":{"name":"sQuestieHat","path":"sprites/sQuestieHat/sQuestieHat.yy",},"order":3,},
     {"id":{"name":"oFragment","path":"objects/oFragment/oFragment.yy",},"order":5,},
+    {"id":{"name":"UseItemsfuncs","path":"scripts/UseItemsfuncs/UseItemsfuncs.yy",},"order":18,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":17,},
     {"id":{"name":"sSlimeAttack","path":"sprites/sSlimeAttack/sSlimeAttack.yy",},"order":13,},
