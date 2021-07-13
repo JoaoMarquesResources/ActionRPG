@@ -10,6 +10,20 @@ global.targetDirection = 0;
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
 global.playerMoney = 0;
+
+//Items
+//https://www.youtube.com/watch?v=cnLl0WWw8WA&list=PLPRT_JORnIuosvhfax2TQTEmN7OYTcSvK&index=36
+global.playerHasAnyItems = false;
+global.playerEquipped = ITEM.BOMB;
+global.playerAmmo = array_create(ITEM.TYPE_COUNT, -1);
+global.playerItemUnlocked = array_create(ITEM.TYPE_COUNT, -1);
+global.playerAmmo[ITEM.BOMB] = 0;
+global.playerAmmo[ITEM.BOW] = 0;
+
+global.playerItemUnlocked[ITEM.BOMB] = true;
+global.playerHasAnyItems = true;
+global.playerAmmo[ITEM.BOMB] = 5;
+
 global.questStatus = ds_map_create();
 global.questStatus[? "TheHatQuest"] = 0;
 

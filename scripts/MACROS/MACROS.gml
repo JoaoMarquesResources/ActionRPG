@@ -23,4 +23,13 @@ function MACROS(){
 		DIE,
 		WAIT
 	}
+	
+	enum ITEM
+	{
+		NONE,
+		BOMB, //bomb = 1
+		BOW,
+		HOOK,
+		TYPE_COUNT
+	}
 }

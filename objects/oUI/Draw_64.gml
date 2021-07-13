@@ -26,7 +26,7 @@ for (var i = 1; i <= _playerHealthMax; i++)
 var _xx, _yy;
 
 //Coin Icon
-_xx = 8;
+_xx = 28;
 _yy = 31;
 draw_sprite(sCoinUI, 0, _xx, _yy);
 
@@ -44,3 +44,26 @@ draw_text(_xx, _yy + 1, _str);
 draw_text(_xx, _yy - 1, _str);
 draw_set_color(c_white);
 draw_text(_xx, _yy, _str);
+
+//Draw item box
+_xx = 8;
+_yy = 24;
+
+draw_sprite(sitemUIBox, 0, _xx, _yy);
+if (global.playerHasAnyItems)
+{
+	draw_sprite(sItemUI, global.playerEquipped, _xx, _yy);
+	if (global.playerAmmo[global.playerEquipped] != -1) //este item usa ammo
+	{
+		draw_set_font(fAmmo);
+		draw_set_halign(fa_right);
+		draw_set_valign(fa_bottom);
+		draw_set_color(c_white);
+		draw_text
+		(
+			_xx + sprite_get_width(sitemUIBox) + 1,
+			_yy + sprite_get_height(sitemUIBox) + 1,
+			string(global.playerAmmo[global.playerEquipped])
+		);
+	}
+}
