@@ -8,6 +8,7 @@ keyActivate = keyboard_check_pressed(vk_space);
 keyPickupItem = keyboard_check_pressed(ord("E"));
 keyAttack = keyboard_check_pressed(vk_shift);
 keyItem = keyboard_check_pressed(vk_control);
+keyItemSelectUpDown = keyboard_check_pressed(vk_tab);
 
 inputDirection = point_direction(0, 0, keyRight - keyLeft, keyDown - keyUp); //Retorna os graus (dir = 0; esq = 180; up = 90; down = 270 etc);
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0); //Retorna sempre 1 se estiverer em movimento

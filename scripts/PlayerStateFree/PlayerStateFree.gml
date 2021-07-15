@@ -107,4 +107,20 @@ function PlayerStateFree(){
 			default: break;
 		}
 	}
+	
+	//Clycle Items
+	if (global.playerHasAnyItems)
+	{
+		var _cycleDirection = keyItemSelectUpDown;
+		if (_cycleDirection != 0)
+		{ 
+			do
+			{
+				global.playerEquipped += _cycleDirection;
+				if (global.playerEquipped < 1) global.playerEquipped = ITEM.TYPE_COUNT - 1;
+				if (global.playerEquipped >= ITEM.TYPE_COUNT) global.playerEquipped = 1;
+			}
+			until (global.playerItemUnlocked[global.playerEquipped]);
+		}
+	}
 }
