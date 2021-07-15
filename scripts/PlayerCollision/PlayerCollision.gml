@@ -60,7 +60,11 @@ function PlayerCollision(){
 			//Se estamos a mover para a esq
 			//Move as close as we can
 			if (sign(vSpeed) == -1) _snapY = _entityCheck.bbox_bottom + 1;
-			else _snapY = _entityCheck.bbox_top - 1;
+			else 
+			{
+				_snapY = _entityCheck.bbox_top - 1;
+				show_message("OJFOAJFO")
+			}
 			y = _snapY;
 			vSpeed = 0;
 			_collision = true;

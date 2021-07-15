@@ -15,3 +15,13 @@ enemyScript[ENEMYSTATE.CHASE] = SlimeChase;
 enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack;
 enemyScript[ENEMYSTATE.HURT] = SlimeHurt;
 enemyScript[ENEMYSTATE.DIE] = SlimeDie;
+
+entityDropList = choose
+(
+	[oCoin],
+	[oCoin, oCoin],
+	[oBombDrop],
+	-1,
+	-1,
+	-1,
+)
