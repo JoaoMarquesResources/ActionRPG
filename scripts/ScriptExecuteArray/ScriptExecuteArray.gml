@@ -23,6 +23,10 @@ function ScriptExecuteArray(scr,args){
 		
 		case 8: return script_execute(scr, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]);
 		
+		case 9: return script_execute(scr, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8]);
+		
+		case 10: return script_execute(scr, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9]);
+		
 		default: show_error("script_execute_array: argument count not supported!",false);
 		
 	}

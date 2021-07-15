@@ -35,7 +35,7 @@
     "path": "folders/Objects/Entities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TESTE",
+  "name": "oBombDrop",
   "tags": [],
   "resourceType": "GMObject",
 }

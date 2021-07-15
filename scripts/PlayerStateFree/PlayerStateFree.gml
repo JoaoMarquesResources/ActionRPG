@@ -113,7 +113,7 @@ function PlayerStateFree(){
 	{
 		var _cycleDirection = keyItemSelectUpDown;
 		if (_cycleDirection != 0)
-		{ 
+		{
 			do
 			{
 				global.playerEquipped += _cycleDirection;
