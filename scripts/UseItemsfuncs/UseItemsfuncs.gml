@@ -33,5 +33,6 @@ function PlayerFireArrow()
 
 function UseItemHook()
 {
-	
+	state = PlayerStateHook;
+	localframe = 0;
 }

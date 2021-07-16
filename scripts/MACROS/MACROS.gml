@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function MACROS(){
+function MACROS()
+{
 	#macro FRAME_RATE 60
 	#macro TILE_SIZE 16
 	#macro CARDINAL_DIR round(direction/90)
@@ -27,9 +28,17 @@ function MACROS(){
 	enum ITEM
 	{
 		NONE,
-		BOMB, //bomb = 1
+		BOMB,
 		BOW,
 		HOOK,
 		TYPE_COUNT
+	}
+	
+	enum HOOKSTATUS
+	{
+		EXTENDING,
+		PULLTOPLAYER,
+		PULLTOENTITY,
+		MISSED
 	}
 }

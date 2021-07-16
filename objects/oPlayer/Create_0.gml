@@ -11,21 +11,29 @@ hSpeed = 0;
 vSpeed = 0;
 speedWalk = 2.0;
 speedRoll = 3.0;
-distanceRoll = 52; //Distancia do Roll
+speedBonk = 1.5;
+speedHook = 3.0;
 
+distanceRoll = 52; //Distancia do Roll
 distanceBonk = 40;
 distanceBonkHeight = 12;
-speedBonk = 1.5;
+distanceHook = 88;
+
+
 z = 0;
 invulnerable = 0; //number of frames
 flash = 0;
 flashShader = shWhiteFlash;
 animationEndScript = -1;
-
 spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 localFrame = 0;
+
+hook = 0;
+hookX = 0;
+hookY = 0;
+hookSize = sprite_get_width(sHookChain);
 
 if (global.targetX != -1) //Nao é nd
 {
