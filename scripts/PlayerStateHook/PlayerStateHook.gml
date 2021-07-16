@@ -68,12 +68,12 @@ function PlayerStateHook()
 					case 1:
 					{
 						hookStatus = HOOKSTATUS.PULLTOPLAYER;
-						hookEntity = _hookHit;
+						hookedEntity = _hookHit;
 					}break;
 					case 2:
 					{
 						hookStatus = HOOKSTATUS.PULLTOENTITY;
-						hookEntity = _hookHit;
+						hookedEntity = _hookHit;
 					}break;
 				}
 			}
