@@ -41,3 +41,10 @@ if (global.targetX != -1) //Nao é nd
 	y = global.targetY;
 	direction = global.targetDirection;
 }
+
+if (global.iLifted != noone) //estamos a carregar algo
+{
+	spriteIdle = sPlayerCarrying;
+	spriteRun = sPlayerRunCarrying;
+	sprite_index = spriteIdle;
+}

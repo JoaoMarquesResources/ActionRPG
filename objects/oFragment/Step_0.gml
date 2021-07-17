@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if (!global.gamePaused)
 {
+	//Bounce
 	if (bounceCount != 0)
 	{
 		bounce += (pi * bounceSpeed);
@@ -12,7 +13,8 @@ if (!global.gamePaused)
 			bounceCount--;
 		}
 		z = sin(bounce) * bounceHeight;
-	}else z = 0;
+	}
+	else z = 0;
 	
 	//Deteriorate
 	deteriorate++;
