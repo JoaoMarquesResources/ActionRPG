@@ -12,5 +12,11 @@ if (instance_exists(oPlayer)) && (position_meeting(oPlayer.x, oPlayer.y, id))
 		with (oPlayer) state = PlayerStateTransition;
 		RoomTransition(TRANS_TYPE.SLIDE, targetRoom);
 		instance_destroy();
+		
+		if (stopRunning)
+		{
+			oPlayer.vSpeed = 0;
+			oPlayer.hSpeed = 0;
+		}
 	}
 }
