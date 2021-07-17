@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSlime",
-    "path": "sprites/sSlime/sSlime.yy",
+    "name": "sBat",
+    "path": "sprites/sBat/sBat.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,14 +28,14 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"enemyHP","path":"objects/pEnemy/pEnemy.yy",},"objectId":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyHP","path":"objects/pEnemy/pEnemy.yy",},"objectId":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemys",
     "path": "folders/Objects/Enemys.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSlime",
+  "name": "oBat",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SlimeFunctions",
+  "name": "BatFunctions",
   "tags": [],
   "resourceType": "GMScript",
 }
