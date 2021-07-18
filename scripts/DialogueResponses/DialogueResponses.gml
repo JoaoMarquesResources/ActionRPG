@@ -14,6 +14,7 @@ function DialogueResponses(response){
 			global.questStatus[? "TheHatQuest"] = 1; //Case 1 no switch
 		}break;
 		case 5: NewTextBox(":(", 2); break;
+		case 6: PurchaseItem(activate.Item, activate.ItemAmount, activate.ItemCost); break;
 		default: break;
 	}
 }
