@@ -49,6 +49,7 @@
     {"id":{"name":"sTextBoxBg","path":"sprites/sTextBoxBg/sTextBoxBg.yy",},"order":2,},
     {"id":{"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},"order":8,},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},"order":2,},
+    {"id":{"name":"SaveGame","path":"scripts/SaveGame/SaveGame.yy",},"order":19,},
     {"id":{"name":"sShopkeeper","path":"sprites/sShopkeeper/sShopkeeper.yy",},"order":4,},
     {"id":{"name":"oExplode","path":"objects/oExplode/oExplode.yy",},"order":9,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":9,},

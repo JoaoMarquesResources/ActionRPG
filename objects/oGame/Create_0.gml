@@ -1,6 +1,8 @@
 /// @description Initialise & Globals
 randomize();
 
+global.gameSaveSlot = 0;
+
 global.gamePaused = false;
 global.textSpeed = .75;
 global.targetRoom = -1;
