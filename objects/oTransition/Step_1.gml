@@ -11,6 +11,8 @@ if (leading == OUT)
 	percent = min(1, percent + TRANSITION_SPEED); //Fazer com q chegue a 1
 	if (percent >= 1) //if screen fully obscured
 	{
+		
+		show_message(target);
 		room_goto(target);
 		leading = IN;
 	}

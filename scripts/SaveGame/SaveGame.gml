@@ -23,6 +23,7 @@ function SaveGame()
 	//Save all of this to a string
 	var _string = json_encode(_map);
 	SaveStringToFile("save" + string(global.gameSaveSlot) + ".sav", _string);
+	show_message(global.gameSaveSlot);
 	show_debug_message(_string);
 	
 	//Nuke the data

@@ -71,6 +71,7 @@
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":1,},
     {"id":{"name":"sExplode","path":"sprites/sExplode/sExplode.yy",},"order":19,},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},"order":8,},
+    {"id":{"name":"RoomToAreaName","path":"scripts/RoomToAreaName/RoomToAreaName.yy",},"order":21,},
     {"id":{"name":"sSlimeDie","path":"sprites/sSlimeDie/sSlimeDie.yy",},"order":14,},
     {"id":{"name":"sCoinUI","path":"sprites/sCoinUI/sCoinUI.yy",},"order":20,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":6,},

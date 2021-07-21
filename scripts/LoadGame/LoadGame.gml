@@ -30,13 +30,14 @@ function LoadGame(_slot)
 		
 		//Room
 		RoomTransition(TRANS_TYPE.SLIDE, _json[? "room"]);
+		show_message("ROOM: " + string(_json[? "room"]));
 		ds_map_destroy(_json);
 	
 		return true;
 	}
 	else
 	{
-		show_debug_message("no save in this slot");
+		show_message("no save in this slot");
 		return false;
 	}
 }
